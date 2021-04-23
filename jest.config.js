@@ -5,7 +5,8 @@ const root = resolve(__dirname);
 module.exports = {
   rootDir: root,
   displayName: 'Unit tests',
-  testMatch: ['<rootDir>/**/*.spec.js'],
+  testMatch: ['<rootDir>/src/**/*.spec.js'],
   testEnvironment: 'node',
   clearMocks: true,
+  verbose: true
 };
