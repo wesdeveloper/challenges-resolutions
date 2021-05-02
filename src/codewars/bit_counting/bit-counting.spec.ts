@@ -1,4 +1,4 @@
-const countBits = require('./bit-counting');
+import { countBits } from './bit-counting';
 
 /**
  * Description:
@@ -33,7 +33,7 @@ describe('Basic tests', () => {
 });
 
 describe('Random tests', () => {
-  function randint(min, max) {
+  function randint(min: number, max: number) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
