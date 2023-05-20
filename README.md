@@ -1,3 +1,3 @@
 # challenges-resolutions
 
-https://www.codewars.com/users/wesdeveloper/badges/large
+![codewars](https://www.codewars.com/users/wesdeveloper/badges/large)
